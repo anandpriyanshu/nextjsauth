@@ -7,3 +7,8 @@ create .env
 install mongoose(helps in database modelling) & create userModel based on verify token and forgot password in model folder 
 
 Create dbConnection to connect databse using Domain
+
+
+install nodemailer & create helper
+
+change & install  type of nodemail Create helper for email sending
