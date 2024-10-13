@@ -1,0 +1,7 @@
+create  users and login in api folder
+
+create login and signup routes
+
+create .env
+
+install mongoose(helps in database modelling) & create userModel based on verify token and forgot password in model folder 
