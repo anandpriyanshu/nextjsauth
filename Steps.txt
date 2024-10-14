@@ -12,3 +12,5 @@ Create dbConnection to connect databse using Domain
 install nodemailer & create helper
 
 change & install  type of nodemail Create helper for email sending
+
+create route signup in api/users, connect database, import User.In Post method check user is already exist or not 
