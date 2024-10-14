@@ -8,7 +8,7 @@ connect()
 export async function POST(request: NextRequest) {
 
     try {
-        const requestBody = request.json()
+        const requestBody = await request.json()
         const { username, email, password } = requestBody
 
         //user validation
