@@ -22,3 +22,5 @@ create route for verifyemail and verify user based on token and update the user 
 create route for login. Implement login logic and installed jsonwebtoken 
 
 create route logout and implement logic 
+
+Create aboutme router, getDatafromtoken in helper and implemention of get data
