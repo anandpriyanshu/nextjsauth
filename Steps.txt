@@ -20,3 +20,5 @@ send token to database and send mail to user, use await in signup in line 11
 create route for verifyemail and verify user based on token and update the user verifyToken and verifyTokenexpiry status
 
 create route for login. Implement login logic and installed jsonwebtoken 
+
+create route logout and implement logic 
