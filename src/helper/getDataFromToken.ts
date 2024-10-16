@@ -8,7 +8,7 @@ export const getDataFromToken = (request: NextRequest) => {
         const token = request.cookies.get('token')?.value || ""
         // tokenData is in decodedToken 
         const decodedToken: any = jwt.verify(token, process.env.TOKEN_SECRET!)
-        // taken id from login router not from mongodb
+        // received id from login router not from mongodb
         return decodedToken.id
 
     } catch (error: any) {
